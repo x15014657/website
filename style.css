@@ -1,0 +1,303 @@
+body{
+	background-image:url("images/bk2.jpg"); /* image source http://backgrounds.mysitemyway.com/ */
+	color:#FFBF00;
+}
+#wrapper{
+	width:100%;
+	min-height:100%;
+	background:transparent;
+}
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #9A2EFE;
+    margin: 1em 0;
+    padding: 0; 	
+}
+.gal{
+	max-width:100%;
+	border-radius:60px;
+	position:center;
+}
+#count{
+	border:0%;
+	margin:0 auto;
+	max-width:100%;
+}
+#player{
+	margin:0 auto;
+}
+audio{
+	width:450px;
+	height:50px;
+	max-width:100%;	
+}
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width:100%;
+}
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin:0 auto;
+	}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0% 1% 0%;
+	text-align: center;
+}
+.col:first-child { margin-left:0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF SEVEN  */
+.span_7_of_7 {
+	width: 100%;
+}
+
+.span_6_of_7 {
+  	width: 85.71%;
+}
+
+.span_5_of_7 {
+  	width: 71.42%;
+}
+
+.span_4_of_7 {
+  	width: 40.00%;
+}
+
+.span_3_of_7 {
+  	width: 42.85%;
+}
+
+.span_2_of_7 {
+  	width: 28.57%;
+}
+
+.span_1_of_7 {
+  	width: 14.28%;
+}
+#bhl{
+	width:550px;
+	max-width:100%;
+	height:auto;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 50% { -moz-transform: rotateY(90deg); } }
+@-webkit-keyframes spin { 50% { -webkit-transform: rotateY(90deg); } }
+@keyframes spin { 50% { -webkit-transform: rotateY(90deg); transform:rotateY(90deg); } }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_7, .span_2_of_7, .span_3_of_7, .span_4_of_7, .span_5_of_7, .span_6_of_7, .span_7_of_7 { width: 100%; }
+}
+.sg{
+	width:100%;
+	height:auto;
+}
+.mi{
+	width:120px;
+	height:120px;
+	margin: 0 auto;
+	font-size:40px;
+}
+#front{
+	border-radius:60px;
+	max-width:100%;
+	min-width:auto;
+}
+.pics{
+	width:300px;
+	height:auto;
+	max-width:100%;
+}
+.unique{
+	background-color:black;
+	max-width:100%;
+
+}
+.event{
+	background-image:url("images/tb.png"); /* image source http://backgrounds.mysitemyway.com/ */	
+	max-width:100%;
+}
+.effectscale {
+  width:300px;
+  height:auto;
+  max-width:100%;
+  border: none;
+  margin: 0 auto;
+}
+.effectscale:hover {
+   max-width:100%;
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+@media all and (max-width: 480px) {
+ .effectscale:hover{
+  margin:0 auto;
+  max-width:100%;
+  -webkit-animation:none;
+  -moz-transform: none;
+  transform: none;
+  transition: none;
+  -webkit-transition: none;  
+ }
+}
+.effect {
+  margin:0 auto;
+  border-radius:60px;
+  width:300px;
+  height:auto;
+  max-width:100%;
+  border: none;
+  margin: 0 auto;
+}
+.effect:hover {
+  margin:0 auto;
+  border-radius:60px;
+  max-width:100%;
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+@media all and (max-width: 480px) {
+ .effect:hover{
+  margin:0 auto;
+  border-radius:60px;
+  margin:0 auto;
+  max-width:100%;
+  -webkit-animation:none;
+  -moz-transform: none;
+  transform: none;
+  transition: none;
+  -webkit-transition: none;  
+ }
+}
+
+
+
+#stext{
+	color:#6782C7;
+}
+/* Code for contact page */
+/* Code For Services Page */
+#extra{
+	background-image:url("images/b4.png");
+	color:#0F23BB;
+	margin:0 auto;
+}
+a:link{
+	color:#6782C7;
+	text-shadow: rgba(255, 255, 255, 0.498039) 0px 0px 20px, rgba(255, 255, 255, 0.498039) 0px 0px 25px;
+	text-decoration:none;	
+}
+a:visited{
+	color:#2D4EB0;
+	text-decoration:none;
+	text-shadow: rgba(255, 255, 255, 0.498039) 0px 0px 20px, rgba(255, 255, 255, 0.498039) 0px 0px 25px
+}
+a:hover{
+	color:#FF7400;
+	text-decoration:none;
+	text-shadow: rgba(255, 255, 255, 0.498039) 0px 0px 20px, rgba(255, 255, 255, 0.498039) 0px 0px 25px
+}
+a:active{
+	color:#FFDB27;
+	text-decoration:none;
+	text-shadow: rgba(255, 255, 255, 0.498039) 0px 0px 20px, rgba(255, 255, 255, 0.498039) 0px 0px 25px
+}
+iframe{
+	border:0;
+	border-style:0; 
+	width:600px;
+	height:450px;
+	max-width:100%;
+	margin: 0 auto;
+}
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  font-size:20px;
+}
+h2{
+	color:#FF8000;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: none; 
+}
+
+td, th { 
+  padding: 6px; 
+  border: 0px; 
+  text-align: center; 
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; 
+	}
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 10%; 
+	}
+	
+td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+}
+.div_text_shadow 
+{
+color: rgb(46, 153, 254);
+font-size: 50px;
+background-color: rgb(33, 125, 148);
+text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+.fb-page{
+	float:absolute;
+}
